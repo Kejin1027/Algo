@@ -50,7 +50,6 @@ class MinHeap{
         this.heap.push(value)
         this.shiftUp(this.heap.length - 1)
     }
-
     pop(){
         this.heap[0] = this.heap.pop()
         this.shiftDown(0)
