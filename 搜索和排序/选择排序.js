@@ -10,7 +10,7 @@ Array.prototype.selectionSort = function(){
                 indexMin = j;
             }
         }
-        if(indexMin !==i){
+        if(indexMin !== i){
             const temp = this[i]
             this[i] = this[indexMin]
             this[indexMin] = temp
@@ -18,6 +18,7 @@ Array.prototype.selectionSort = function(){
     }
 
 }
+
 
 const arr = [5, 4, 3, 2, 1]
 arr.selectionSort()
